@@ -1,0 +1,12 @@
+# Versiones fijadas.
+# Las de scikit-learn y xgboost DEBEN coincidir con las que generaron los .pkl,
+# o al cargarlos sale "XGBoostError: input stream corrupted".
+# Estas son exactamente las versiones con que se corrió entrenar.py.
+matplotlib>=3.8
+joblib==1.4.2
+scikit-learn==1.8.0
+xgboost==3.3.0
+statsmodels==0.14.6
+shap==0.52.0
+pandas==2.2.3
+numpy==2.1.3
