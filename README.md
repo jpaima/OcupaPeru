@@ -20,7 +20,7 @@ python -m venv .venv
 
 pip install -r requirements.txt
 python entrenar.py                # entrena los modelos y genera models/  (~2 min, una sola vez)
-python ventana.py                 # abre la ventana del programa
+python OcupaPeru.py                 # abre la ventana del programa
 ```
 
 `entrenar.py` guarda los modelos con las versiones de librerías de **tu** equipo. Si usas modelos
