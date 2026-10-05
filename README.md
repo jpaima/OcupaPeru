@@ -37,7 +37,7 @@ entrenados en otra máquina puede salir `XGBoostError: input stream corrupted`. 
 ## Estructura
 
 ```
-├── ventana.py                      # Ventana del programa (Tkinter + Matplotlib)
+├── OcupaPeru.py                    # Ventana del programa (Tkinter + Matplotlib)
 ├── nucleo.py                       # Datos, modelos, predicción, pronóstico y base SQLite
 ├── entrenar.py                     # Entrena los modelos -> genera models/
 ├── requirements.txt
